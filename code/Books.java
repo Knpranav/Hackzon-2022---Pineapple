@@ -57,8 +57,7 @@ public class Books implements List<Book>{
 
     @Override
     public boolean addAll(Collection<? extends Book> c) {
-        // TODO Auto-generated method stub
-        return false;
+        return books.addAll(c);
     }
 
     @Override
