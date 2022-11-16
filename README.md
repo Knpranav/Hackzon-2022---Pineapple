@@ -65,7 +65,7 @@ To solve this our Library book recommender goes through multiple rules
   
   
   
-   ![Alt text](https://drive.google.com/file/d/1CGOfJ6qU0mkuVEYKgzFu94mxsxzCsOdJ/view?usp=share_link "Optional title")
+   ![Alt text](C:\Users\pranav\Desktop "Optional title")
   
   
   
