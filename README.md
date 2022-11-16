@@ -59,7 +59,7 @@ To solve this our Library book recommender goes through multiple rules
   
 
     
-  ![Alt text](https://drive.google.com/file/d/1hgzHUmfPAfVVR3ygnRyLEvkIJiuIIOkC/view?usp=share_link "Optional title")
+  ![Alt text](https://photos.app.goo.gl/oR3wRS7k2CvqfeQ88 "Optional title")
   
   
   
