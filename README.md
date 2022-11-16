@@ -4,6 +4,7 @@ IDEA UNIQUENESS : Its a solution we're providing to an actual problem faced by m
 
 CODE QUALITY  : The code is written purely in Java.
                 REFACTORED - Our code is refactored, follows most guidelines of refactoring. We did not compromise on having clean code.
+                
                 DESIGN PATTERN - The code also has a hybrid design pattern with a mix of Builder pattern and Prototype Pattern.
 
 
@@ -28,7 +29,7 @@ To solve this our Library book recommender goes through multiple rules
      
     *  Availability  - Checks if the book recommended is available to hand it out.
        
-     *  Prequel / Sequal  - Recommends the Seques of a book or Prequel from history of read books.
+    *  Prequel / Sequal  - Recommends the Seques of a book or Prequel from history of read books.
        
        
      This significantly reduces the amount of books he has to carry, because the recommender does the job of 
@@ -59,16 +60,23 @@ To solve this our Library book recommender goes through multiple rules
   
   
    SCREENSHOTS - - 
-    
-    
-  
-  ![img](https://user-images.githubusercontent.com/77685206/202239076-51d0c28b-8092-40ba-8a32-b9a3a0166673.jpeg)
-
-
+   
+   
   ![1mg1](https://user-images.githubusercontent.com/77685206/202239186-a8d07515-ddf6-495a-91c2-8b963e1ce4ae.jpeg)
-  
-  
+    
+    
+    
+    
   ![img2](https://user-images.githubusercontent.com/77685206/202239268-865149f2-9635-4e4b-add3-aa19a43b81a2.jpeg)
+  
+  
+  
+  
+  
+  
+  ![img33](https://user-images.githubusercontent.com/77685206/202245078-45972e86-0e80-446a-a1ff-3a61c29398d9.jpeg)
+
+
 
   
 
