@@ -7,10 +7,15 @@ public class Book{
     int prequel;
     int sequel;
     String ageGroup;
+    int count;
 
     public Book(String details){
         String[] values = details.split(",");
         createFrom(values);
+    }
+
+    public void updateCount(){
+        count++;
     }
 
     private void createFrom(String[] values){
@@ -24,5 +29,6 @@ public class Book{
         else
             prequel = -1;
         ageGroup = values[7];
+        count = 0;
     }
 }
