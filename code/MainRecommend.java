@@ -98,9 +98,9 @@ public class MainRecommend {
         System.out.println("The books you will need to carry are: ");
         for(Book b : books){
             if(b.count == 1)
-                System.out.println("1 copy of " + b.index + " " + b.name);
+                System.out.println("1 copy of " + b.name);
             else if(b.count > 1)
-                System.out.println(b.count + " copies of " + b.index + " " + b.name);
+                System.out.println(b.count + " copies of " + b.name);
         }
         
         sc.close();
