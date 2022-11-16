@@ -60,7 +60,6 @@ public class MainRecommend {
         Person person;
         RecommendationEngine recommender = new RecommendationEngine();
         int userID = -1;
-        HashMap<Integer, Books> hasRecommneded = new HashMap<Integer, Books>();
 
         bookList = mainRecommend.parsing("books.csv");
         peopleList = mainRecommend.parsing("users.csv");
@@ -80,17 +79,31 @@ public class MainRecommend {
                 continue;
             person = people.getByID(userID);
             recommenededBooks = recommender.canRecommend(books, person, transactions, hasRead);
-            hasRecommneded.put(person.id, recommenededBooks);
-            peopleToRecommend.add(person);
-
-            System.out.println("The recommendation engine has generated the following books to recommend: ");
-            for(Book book : recommenededBooks){
-                System.out.println(book.name);
+            for(Book b : recommenededBooks){
+                b.updateCount();
             }
-        
+            peopleToRecommend.add(person);
+        }
+
+        OrderPeople order = new OrderPeople();
+        peopleToRecommend = order.sortOrder(peopleToRecommend);
+        System.out.println("The order to visit from your location is: ");
+        for(Person p : peopleToRecommend){
+            System.out.println(p.id + " " + p.name + " " + p.x + " " + p.y);
+        }
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println("The books you will need to carry are: ");
+        for(Book b : books){
+            if(b.count == 1)
+                System.out.println("1 copy of " + b.index + " " + b.name);
+            else if(b.count > 1)
+                System.out.println(b.count + " copies of " + b.index + " " + b.name);
         }
         
-            sc.close();
+        sc.close();
 
     }
 }
