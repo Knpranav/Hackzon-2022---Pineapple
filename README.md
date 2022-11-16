@@ -72,10 +72,10 @@ To solve this our Library book recommender goes through multiple rules
   
   
   
-  ![img](https://user-images.githubusercontent.com/77685206/202239076-51d0c28b-8092-40ba-8a32-b9a3a0166673.jpeg)
   
   
-  
+  ![img33](https://user-images.githubusercontent.com/77685206/202245078-45972e86-0e80-446a-a1ff-3a61c29398d9.jpeg)
+
 
 
   
