@@ -9,7 +9,10 @@ To solve this our Library book recommender goes through multiple rules
 
   Such As --
        * Age Rule
+       
        * Genre Category
+       
        * Previously Read Books
-       *
-  ![Alt text](https://www.almanac.com/sites/default/files/styles/large/public/image_nodes/sunflower-1627193_1920.jpg?itok=5uE83ntL "Optional title")
+     
+       *Availability
+  ![Alt text]( "Optional title")
