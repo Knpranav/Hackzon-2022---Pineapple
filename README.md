@@ -31,26 +31,26 @@ To solve this our Library book recommender goes through multiple rules
        *  Prequel / Sequal  - Recommends the Seques of a book or Prequel from history of read books.
        
        
-     This significantly reduces the amount of books he has to carry, because the recommender does the job of exactly pinpointing what kind of the customer would
-     be interested in reading.
-     He spends significantly less time to interact in exchanging books and offering new ones .
+     This significantly reduces the amount of books he has to carry, because the recommender does the job of 
+     exactly pinpointing what kind of the customer would be interested in reading.
+     He spends significantly less time to interact in exchanging books and offering new ones.
      
     
    PROBLEM 2 :
                           
-    To provide books to people on a given day, he has to navigate himself in an order to cater customers.
-    Even though he has the recommended books to provide, the order in which he goes to people could be faulty.
-    It may not be the most optimal route.
-    
-    Thus we present our 2nd solution to this problem
+      To provide books to people on a given day, he has to navigate himself in an order to cater customers.
+      Even though he has the recommended books to provide, the order in which he goes to people could be faulty.
+      It may not be the most optimal route.
+
+      Thus we present our 2nd solution to this problem
     
     
    SOLUTION 2 :
 
 
-Considering him as a Travelling Salseman, we re-arrange the order in which he has to meet people by finding the most optimal route
-from his location. It provides the shortest route possible in the given coordinates of customers.
-He thus travels in the most efficient way possible spending less time travelling without re-counting distance.
+      Considering him as a Travelling Salseman, we re-arrange the order in which he has to meet people by finding the most optimal route
+      from his location. It provides the shortest route possible in the given coordinates of customers.
+      He thus travels in the most efficient way possible spending less time travelling without re-counting distance.
 
 
                               -                             -                              -                                  -      
