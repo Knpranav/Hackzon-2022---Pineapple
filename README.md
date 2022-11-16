@@ -19,7 +19,7 @@ To solve this our Library book recommender goes through multiple rules
 
                                 SOLUTION 1 :
 
-  Such As --
+  Such As - -
        *  Age Rule - Checks the category of age for recommending boojs
        
        *  Genre Category - Checks for the Predominant genres in previously read books and suggests from the same genre.
@@ -36,7 +36,7 @@ To solve this our Library book recommender goes through multiple rules
      He spends significantly less time to interact in exchanging books and offering new ones .
      
     
-                                PROBLEM 2 :
+   PROBLEM 2 :
                           
     To provide books to people on a given day, he has to navigate himself in an order to cater customers.
     Even though he has the recommended books to provide, the order in which he goes to people could be faulty.
@@ -45,7 +45,7 @@ To solve this our Library book recommender goes through multiple rules
     Thus we present our 2nd solution to this problem
     
     
-                                SOLUTION 2 :
+   SOLUTION 2 :
 
 
 Considering him as a Travelling Salseman, we re-arrange the order in which he has to meet people by finding the most optimal route
