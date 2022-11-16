@@ -80,7 +80,7 @@ public class MainRecommend {
             person = people.getByID(userID);
             recommenededBooks = recommender.canRecommend(books, person, transactions, hasRead);
             for(Book b : recommenededBooks){
-                b.updateCount();
+                b.updateCount(person);
             }
             peopleToRecommend.add(person);
         }
@@ -97,10 +97,20 @@ public class MainRecommend {
 
         System.out.println("The books you will need to carry are: ");
         for(Book b : books){
-            if(b.count == 1)
-                System.out.println("1 copy of " + b.name);
-            else if(b.count > 1)
-                System.out.println(b.count + " copies of " + b.name);
+            if(b.count == 1){
+                System.out.print("1 copy of " + b.name + " for ");
+                for(String name : b.names){
+                    System.out.print(name);
+                }
+                System.out.println();
+            }
+            else if(b.count > 1){
+                System.out.print(b.count + " copies of " + b.name + " for ");
+                for(String name : b.names){
+                    System.out.print(name + ",");
+                }
+                System.out.println();
+            }
         }
         
         sc.close();

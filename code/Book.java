@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Book{
     int index;
     String name;
@@ -8,14 +10,16 @@ public class Book{
     int sequel;
     String ageGroup;
     int count;
+    ArrayList<String> names;
 
     public Book(String details){
         String[] values = details.split(",");
         createFrom(values);
     }
 
-    public void updateCount(){
+    public void updateCount(Person person){
         count++;
+        names.add(person.name);
     }
 
     private void createFrom(String[] values){
@@ -30,5 +34,6 @@ public class Book{
             prequel = -1;
         ageGroup = values[7];
         count = 0;
+        names = new ArrayList<String>();
     }
 }
