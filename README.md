@@ -20,15 +20,15 @@ To solve this our Library book recommender goes through multiple rules
                                 SOLUTION 1 :
 
   Such As - -
-       *  Age Rule - Checks the category of age for recommending boojs
+    *  Age Rule - Checks the category of age for recommending boojs
        
-       *  Genre Category - Checks for the Predominant genres in previously read books and suggests from the same genre.
+    *  Genre Category - Checks for the Predominant genres in previously read books and suggests from the same genre.
        
-       *  Previously Read Books  - Checks for what's read previously, and suggests from similar kinds of books.
+    *  Previously Read Books  - Checks for what's read previously, and suggests from similar kinds of books.
      
-       *  Availability  - Checks if the book recommended is available to hand it out.
+    *  Availability  - Checks if the book recommended is available to hand it out.
        
-       *  Prequel / Sequal  - Recommends the Seques of a book or Prequel from history of read books.
+     *  Prequel / Sequal  - Recommends the Seques of a book or Prequel from history of read books.
        
        
      This significantly reduces the amount of books he has to carry, because the recommender does the job of 
@@ -53,19 +53,24 @@ To solve this our Library book recommender goes through multiple rules
       He thus travels in the most efficient way possible spending less time travelling without re-counting distance.
 
 
-                              -                             -                              -                                  -      
                               
-                              
+  
+  
+  
+  
+   SCREENSHOTS - - 
+    
+    
+  
+  ![img](https://user-images.githubusercontent.com/77685206/202239076-51d0c28b-8092-40ba-8a32-b9a3a0166673.jpeg)
+
+
+  ![1mg1](https://user-images.githubusercontent.com/77685206/202239186-a8d07515-ddf6-495a-91c2-8b963e1ce4ae.jpeg)
+  
+  
+  ![img2](https://user-images.githubusercontent.com/77685206/202239268-865149f2-9635-4e4b-add3-aa19a43b81a2.jpeg)
+
   
 
-    
-  ![Alt text](https://ibb.co/cynRmLd "Optional title")
-  
-  
-  
-  
-  
-   ![Alt text](https://drive.google.com/file/d/1CGOfJ6qU0mkuVEYKgzFu94mxsxzCsOdJ/view?usp=sharing "Optional title")
-  
-  
+
   
