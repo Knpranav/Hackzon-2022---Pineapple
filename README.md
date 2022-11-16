@@ -4,8 +4,10 @@ IDEA UNIQUENESS : Its a solution we're providing to an actual problem faced by m
 
 CODE QUALITY  : The code is written purely in Java.
                 REFACTORED - Our code is refactored, follows most guidelines of refactoring. We did not compromise on having clean code.
-                
                 DESIGN PATTERN - The code also has a hybrid design pattern with a mix of Builder pattern and Prototype Pattern.
+                REUSABILITY - The Code can be used as a of the shelf code in other book recommender systems.
+                MAINTAINABILITY - Becasue of its refactored form, written using XP SDLC Model,it becomes very simple to maintain
+                                  and understand what's happening in the code.
 
 
 
